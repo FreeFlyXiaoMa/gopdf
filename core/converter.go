@@ -507,7 +507,6 @@ func (convert *Converter) InternalLinkLink(line string, elements []string) {
 	convert.pdf.SetY(parseFloatPanic(elements[2], line))
 }
 
-
 func (convert *Converter) Margin(line string, eles []string) {
 	checkLength(line, eles, 3)
 	top := parseFloatPanic(eles[1], line)
@@ -528,7 +527,7 @@ func (convert *Converter) GetXY() (x, y float64) {
 func (convert *Converter) MeasureTextWidth(text string) float64 {
 	w, err := convert.pdf.MeasureTextWidth(text)
 	if err != nil {
-		panic(err)
+		fmt.Println("MeasureTextWidth err:", err)
 	}
 
 	return w
