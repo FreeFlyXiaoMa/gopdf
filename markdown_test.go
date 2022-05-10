@@ -1,15 +1,15 @@
 package Cgopdf
 
 import (
-	"testing"
-	"io/ioutil"
-	"encoding/json"
-	"log"
 	"bytes"
+	"encoding/json"
 	"fmt"
+	"io/ioutil"
+	"log"
+	"testing"
 
-	"gitee.com/cindoralla/gopdf/core"
-	"gitee.com/cindoralla/gopdf/lex"
+	"github.com/FreeFlyXiaoMa/gopdf/core"
+	"github.com/FreeFlyXiaoMa/gopdf/lex"
 )
 
 func init() {

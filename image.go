@@ -2,7 +2,7 @@ package Cgopdf
 
 import (
 	"fmt"
-	"gitee.com/cindoralla/gopdf/core"
+	"github.com/FreeFlyXiaoMa/gopdf/core"
 	"image"
 	"io/ioutil"
 	"os"

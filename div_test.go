@@ -1,10 +1,10 @@
 package Cgopdf
 
 import (
-	"testing"
 	"strings"
+	"testing"
 
-	"gitee.com/cindoralla/gopdf/core"
+	"github.com/FreeFlyXiaoMa/gopdf/core"
 )
 
 const (

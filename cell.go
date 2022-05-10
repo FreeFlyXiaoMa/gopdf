@@ -4,8 +4,8 @@ import (
 	"math"
 	"strings"
 
-	"gitee.com/cindoralla/gopdf/core"
-	"gitee.com/cindoralla/gopdf/util"
+	"github.com/FreeFlyXiaoMa/gopdf/core"
+	"github.com/FreeFlyXiaoMa/gopdf/util"
 )
 
 type TextCell struct {

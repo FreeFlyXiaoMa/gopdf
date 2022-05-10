@@ -4,8 +4,8 @@ import (
 	"math"
 	"strings"
 
-	"gitee.com/cindoralla/gopdf/core"
-	"gitee.com/cindoralla/gopdf/util"
+	"github.com/FreeFlyXiaoMa/gopdf/core"
+	"github.com/FreeFlyXiaoMa/gopdf/util"
 )
 
 // 不会进行自动分页, 可以用于页眉, 页脚的内容.

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gitee.com/cindoralla/gopdf/util"
+	"github.com/FreeFlyXiaoMa/gopdf/util"
 
 )
 

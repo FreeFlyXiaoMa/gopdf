@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/rand"
 	"strings"
-	"time"
 	"testing"
+	"time"
 
-	"gitee.com/cindoralla/gopdf/core"
+	"github.com/FreeFlyXiaoMa/gopdf/core"
 )
 
 const (

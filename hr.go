@@ -1,7 +1,7 @@
 package Cgopdf
 
 import (
-	"gitee.com/cindoralla/gopdf/core"
+	"github.com/FreeFlyXiaoMa/gopdf/core"
 )
 
 type HLine struct {
