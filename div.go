@@ -1,6 +1,7 @@
 package Cgopdf
 
 import (
+	"fmt"
 	"math"
 	"strings"
 
@@ -59,7 +60,7 @@ func NewDivWithWidth(width float64, lineHeight, lineSpce float64, pdf *core.Repo
 	x, _ := pdf.GetXY()
 	endX, _ := pdf.GetPageEndXY()
 	if endX-x <= 0 {
-		panic("please modify current X")
+		fmt.Println("please modify current X")
 	}
 
 	if endX-x <= width {
