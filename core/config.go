@@ -69,9 +69,9 @@ func init() {
 	defaultConfigs = make(map[string]*Config)
 
 	defaultConfigs["A3"] = &Config{
-		startX:        90.14,
+		startX:        50,
 		startY:        72.00,
-		endX:          751.76,
+		endX:          545.0,
 		endY:          1118.55,
 		width:         841.89,
 		height:        1190.55,
@@ -80,9 +80,9 @@ func init() {
 	}
 
 	defaultConfigs["A4"] = &Config{
-		startX:        90.14,
+		startX:        50,
 		startY:        72.00,
-		endX:          505.14,
+		endX:          545.0,
 		endY:          769.89,
 		width:         595.28,
 		height:        841.89,
