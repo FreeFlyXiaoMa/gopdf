@@ -86,7 +86,7 @@ func init() {
 		endY:          769.89,
 		width:         595.28,
 		height:        841.89,
-		contentWidth:  415,
+		contentWidth:  515,
 		contentHeight: 697.89,
 	}
 
