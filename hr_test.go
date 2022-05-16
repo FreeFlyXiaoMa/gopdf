@@ -18,7 +18,7 @@ func ComplexHLineReport() {
 func ComplexHLineReportExecutor(report *core.Report) {
 	unit := 2.83
 	hr := NewHLine(report)
-	hr.SetColor(0.7).SetWidth(5 * unit)
+	hr.SetColor(0.7).SetWidth(unit)
 	hr.GenerateAtomicCell()
 }
 

@@ -1,19 +1,19 @@
 package Cgopdf
 
 import (
+	"fmt"
 	"image"
 	"image/color"
 	"image/draw"
 	"image/jpeg"
 	"image/png"
-	"os"
-	"fmt"
 	"io"
 	"math"
+	"os"
 
 	"golang.org/x/image/bmp"
-	"golang.org/x/image/webp"
 	"golang.org/x/image/tiff"
+	"golang.org/x/image/webp"
 )
 
 const (
@@ -65,17 +65,17 @@ func GetImageWidthAndHeight(picturePath string) (w, h int) {
 	var err error
 	_, err = os.Stat(picturePath)
 	if err != nil {
-		panic("the image path: " + picturePath + " not exist")
+		fmt.Println("the image path: " + picturePath + " not exist")
 	}
 
 	fd, err := os.Open(picturePath)
 	if err != nil {
-		panic("open image error")
+		fmt.Println("open image error")
 	}
 
 	config, _, err := image.DecodeConfig(fd)
 	if err != nil {
-		panic("decode image error")
+		fmt.Println("decode image error")
 	}
 
 	return config.Width, config.Height
